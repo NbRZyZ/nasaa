@@ -119,7 +119,7 @@ export const Home = () => {
               style={{
                 transform: `translateX(${-10 * index}%)`,
                 transition: "300ms",
-              }}>
+              }} >
               {Cards.map((card, index) => {
                 return (
                   <Review

@@ -9,24 +9,36 @@ export const Footer = () =>{
             <Container>
             <div className={styles.flexContainer}>
                 <div>
-                    {new Array(6).fill(0).map(() =>(
+                        <p>Instagram</p>
                         <p>Facebook</p>
-                    ) )}
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                        <p>Twitter</p>
                 </div>
                 <div>
-                {new Array(6).fill(0).map(() =>(
-                    <p>Youtube</p>
-                ) )}
+                        <p>UI Design</p>
+                        <p>UX Design</p>
+                        <p>Prototyping</p>
+                        <p>UI Design</p>
+                        <p>UX Design</p>
+                        <p>Prototyping</p>
                 </div>
                 <div>
-                {new Array(6).fill(0).map(() =>(
-                    <p>Facebook</p>
-                ) )}
+                        <p>Figma</p>
+                        <p>Customers</p>
+                        <p>Why I Love Figma</p>
+                        <p>Figma</p>
+                        <p>Customers</p>
+                        <p>Why I Love Figma</p>
                 </div>
                 <div>
-                {new Array(6).fill(0).map(() =>(
-                    <p>Facebook</p>
-                ) )}
+                        <p>Community Resources Hub</p>
+                        <p>Support</p>
+                        <p>Education</p>
+                        <p>Community Resources Hub</p>
+                        <p>Support</p>
+                        <p>Education</p>
                 </div>
                 <div>
                 <h4>Subscribe to our newsletter</h4>
